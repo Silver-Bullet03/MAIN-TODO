@@ -18,19 +18,15 @@ export default function Main(){
   }
 
   const editTodo = (todo , newTodo) => {
+    console.log(todo+newTodo);
     if(!newTodo || /^\s*$/.test(newTodo)) {
       return;
     }
-    setTodos([...todos].map(ele => {
-          if(ele === todo){
-            todo = newTodo;
-          }
-    }));
-
+    setTodos([...todos].map( ele => (ele === todo ? newTodo : ele)));
   }
   return(
     <div>
-       <Form handleSubmit = {addTodo} />
+       <Form onSubmit = {addTodo} />
        <List data = {todos} deleteTodo = {deleteTodo} editTodo = {editTodo}/>
     </div>
   )

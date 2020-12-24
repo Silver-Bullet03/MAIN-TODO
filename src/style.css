@@ -19,9 +19,7 @@ h1{
 }
 
 .list-container{
-  background : linear-gradient(
-    rgb(31, 133, 10)10%,rgb(86, 182, 226)
-  );
+  background-color : rgb(60, 153, 122);
   width : 400px;
   padding : 13px;
   border-radius : 5px;

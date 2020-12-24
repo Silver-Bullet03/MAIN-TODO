@@ -7,7 +7,7 @@ export default function Form(props){
   const handleSubmit = e => {
      e.preventDefault();
     
-    props.handleSubmit(todo);
+    props.onSubmit(todo);
     setTodo('');
   }
 
