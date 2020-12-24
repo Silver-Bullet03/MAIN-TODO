@@ -26,8 +26,6 @@ export default function List(props){
             </form>
    }
 
-  
-
    const arr = props.data;
    return arr.map((todo,index) => (
      
