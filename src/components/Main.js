@@ -18,7 +18,6 @@ export default function Main(){
   }
 
   const editTodo = (todo , newTodo) => {
-    console.log(todo+newTodo);
     if(!newTodo || /^\s*$/.test(newTodo)) {
       return;
     }

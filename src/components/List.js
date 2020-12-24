@@ -32,12 +32,14 @@ export default function List(props){
    return arr.map((todo,index) => (
      
        <div className = 'list-container' >
-           <div key = {index}>{todo}
-              <div className= 'delete'>
+           <div key = {index} className = 'text'>{todo}</div>
+           <svg className = 'sline'>
+                 <line x1="0" y1="0" x2="380" y2="0" className = 'line'/>
+           </svg>
+           <div className= 'delete'>
                 <RiCloseCircleLine  onClick = {() => props.deleteTodo(todo)}/>
                 <TiEdit onClick = {() => setEdit(todo)} />
-              </div>
-            </div>
+           </div>
        </div>
      
     ));
