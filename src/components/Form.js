@@ -32,10 +32,10 @@ export default function Form(props) {
         <button className="todo-button" type="submit">
           ADD{' '}
         </button>
+        <button onClick={handleDelete} className="delete-button">
+          DELETE ALL
+        </button>
       </form>
-      <button onClick={handleDelete} className="delete-button">
-        DELETE ALL
-      </button>
     </div>
   );
 }

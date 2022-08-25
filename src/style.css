@@ -13,13 +13,14 @@ body {
 h1 {
   color: white;
   position: relative;
-  left: 100px;
+  margin-left: 90px;
   margin-bottom: 20px;
   margin-top: 20px;
+  margin-right: 70px;
 }
 
 .form-cont {
-  display: flexbox;
+  display: flex;
 }
 
 .list-container {
@@ -35,7 +36,8 @@ h1 {
 
 form {
   padding: 5px;
-  margin: 5px 3px 5px 15px;
+  width: 400px;
+  margin-left: 50px;
 }
 
 .app {
@@ -49,8 +51,8 @@ form {
 input {
   padding: 13px;
   background: transparent;
-  width: 250px;
-  margin-left: 40px;
+  width: 200px;
+  margin-left: 5px;
   border-radius: 5px 0px 0px 5px;
   border-color: white;
   color: white;
