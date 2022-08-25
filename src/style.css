@@ -1,91 +1,102 @@
-*{
-  box-sizing : border-box;
-  margin : 0;
-  padding :0;
-  font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
 
-body{
+body {
   background-color: rgb(47, 47, 165);
 }
 
-h1{
-  color : white;
-  position : relative;
-  left : 100px;
-  margin-bottom : 20px;
-  margin-top : 20px;
-}
-
-.list-container{
-  background-color : rgb(60, 153, 122);
-  width : 400px;
-  min-height : 60px;
-  padding : 13px;
-  border-radius : 5px;
-  margin : 15px auto;
-  position : relative;
-  word-wrap : break-word;
-  
-}
-
-form{
-  padding : 5px;
-  margin : 5px 10px 5px 15px;
-}
-
-.app{
-  background-color : rgb(33, 33, 37);
-  border-radius : 6px;
-  width : 500px;
-  margin : 100px auto;
-  padding : 10px;
-}
-
-input{
-  
-  padding : 13px;
-  background : transparent;
-  width : 300px;
-  margin-left : 40px;
-  border-radius : 5px 0px 0px 5px;
-  border-color : white;
+h1 {
   color: white;
-  outline : none;
+  position: relative;
+  left: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-.todo-button{
-  margin : 5px 5px 5px 0px;
-  padding : 15px;
-  border-radius : 0px 5px 5px 0px;
+.form-cont {
+  display: flexbox;
+}
+
+.list-container {
+  background-color: rgb(60, 153, 122);
+  width: 400px;
+  min-height: 60px;
+  padding: 13px;
+  border-radius: 5px;
+  margin: 15px auto;
+  position: relative;
+  word-wrap: break-word;
+}
+
+form {
+  padding: 5px;
+  margin: 5px 3px 5px 15px;
+}
+
+.app {
+  background-color: rgb(33, 33, 37);
+  border-radius: 6px;
+  width: 500px;
+  margin: 100px auto;
+  padding: 10px;
+}
+
+input {
+  padding: 13px;
+  background: transparent;
+  width: 250px;
+  margin-left: 40px;
+  border-radius: 5px 0px 0px 5px;
+  border-color: white;
+  color: white;
+  outline: none;
+}
+
+.todo-button {
+  margin: 5px 5px 5px 0px;
+  padding: 15px;
+  border-radius: 0px 5px 5px 0px;
   border-color: black;
-  outline : none;
-  cursor : pointer;
-  border:none;
+  outline: none;
+  cursor: pointer;
+  border: none;
 }
 
-.delete{
-  font-size : 20px;
-  padding-top : 10px;
-  align-items : center;
-  cursor : pointer;
-  position :absolute;
-  right : 5px;
-  bottom : 2px;
-  margin-left : 5px;
-  
+.delete-button {
+  margin: 5px 5px 5px 0px;
+  padding: 15px;
+  border-radius: 5px;
+  border-color: black;
+  background-color: rgb(199, 21, 21);
+  outline: none;
+  cursor: pointer;
+  border: none;
 }
 
-.sline{
-  width : 400px ;
-  height : 10px; 
+.delete {
+  font-size: 20px;
+  padding-top: 10px;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  bottom: 2px;
+  margin-left: 5px;
+}
+
+.sline {
+  width: 400px;
+  height: 10px;
   margin-top: 5px;
-  margin-bottom : 5px;
+  margin-bottom: 5px;
 }
 
-line{
-  stroke : black;
-  stroke-width : 3;
+line {
+  stroke: black;
+  stroke-width: 3;
 }
-
